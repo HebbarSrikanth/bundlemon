@@ -12,5 +12,15 @@
         "path": "assets/*.*",
         "maxSize": "50kb"
       }
-    ]
+    ],
+    "reportOutput": [
+      [
+        "github",
+        {
+          "statusCheck": true,
+          "prComment": true
+        }
+      ]
+    ],
+    "verbose": true
   }
